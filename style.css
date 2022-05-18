@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+
+
+a {
+    color: white;
+}
+
+/*index*/
+
+.background {
+    
+    background: url("https://i.ibb.co/JqGwLwZ/desktop.jpg");
+    height: 100vh;
+    background-size: cover;
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+
+.logo{
+    
+   margin-top: 55px;
+   padding-left: 50px;
+}
+
+.nav-options {
+    backdrop-filter: blur(28px);
+    height: 75px;
+    justify-content: center;
+    display: flex;
+    margin-top: 45px;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.hamburger {
+    margin-top: 23%;
+    margin-right: 10%;
+}
+
+.hamimg {
+    background: transparent;
+    border-color: transparent;
+}
+
+.para {
+    padding-inline: 30px;
+    color: white;
+    font-size: 14px;
+    top: 10px;
+    letter-spacing: 3px;
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: transparent;
+    border-width: 0;
+    border-color: transparent;
+    white-space: nowrap;
+  
+}
+
+
+
+.para1 {
+ font-family: 'Barlow Condensed', sans-serif;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ font-size: 23px;
+ color: rgba(250, 248, 248, 0.808);
+ 
+ 
+}
+
+.para2 {
+    font-size: 13px;
+    font-weight: lighter;
+    color: rgba(250, 248, 248, 0.822);
+}
+
+.home {
+    margin-top: 10%;
+}
+
+.head {
+    font-size: 95px;
+    font-family: 'Lora', serif ;
+    color: white;
+}
+
+.explore {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    border-radius: 50%;
+    font-size: 30px;
+    height: 215px;
+    width:240px;
+    letter-spacing: 3px;
+    font-family: 'EB Garamond', serif;
+    margin-top: 70px;
+}
+
+
+
+/*destination*/
+
+.destination {
+    background: url("https://i.ibb.co/8rSSG0G/background-destination-desktop.jpg");
+    height: 600px;
+    background-size: cover;
+}
+
+
+.marsimg {
+    height: 300px;
+    
+}
+
+.buttons {
+    margin-top: 20%;
+}
+
+.des {
+    background-color: transparent;
+    border-width: 0;    
+    color: rgba(250, 248, 248, 0.822);
+    padding-inline: 2%;
+    font-family: 'Barlow Condensed', sans-serif;
+    outline: none;
+}
+
+.time {
+    
+    color: white;
+}
+
+.des-para {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: rgba(250, 248, 248, 0.822);
+    font-size: 13px;
+    
+}
+
+.des-time {
+    font-family: 'Lora', serif ;
+    color: antiquewhite;
+    font-size: 19px;
+}
+
+/* crew */
+
+.crew {
+    background: url("https://i.ibb.co/NYsMW89/background-crew-desktop.jpg" );
+    height: 100vh;
+    background-size: cover;
+    padding-top: 6%;
+    padding-inline: 5%;
+    text-transform: uppercase;
+    overflow: hidden;
+   
+}
+
+.crewimg {
+    height: 435px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.crewpara {
+    color: gray;
+    font-size: 32px;
+    margin: auto;
+    margin-top: 12%;
+    font-family: 'Forum', cursive;
+    letter-spacing: 2px;
+}
+
+.crewhead {
+    color: white;
+    font-size: 55px;
+    letter-spacing: 2px;
+    font-family: 'Forum', cursive;
+    text-transform: uppercase;
+}
+
+.crewpara1 {
+    color: #adc7e0;
+    margin-top: 2.3%;
+    padding-inline-end: 17%;
+    font-size: 13px;
+}
+
+.circles {
+    background-color: #353841;
+    height: 13px;
+    width: 13px;
+    border-radius: 50px;
+    border: none;
+    
+}
+
+
+
+/* teCH */
+
+.tech {
+    background: url("https://i.ibb.co/5B6WcqY/background-technology-desktop.jpg" );
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;      
+}
+
+
+
+.tech-cont {
+    padding-top: 6%;
+    padding-left: 4%;
+}
+
+.tech-head {
+    margin-bottom: 6%;
+    padding-left: 3%;
+}
+
+.techpara {
+    color: white;
+    font-size: 14px;
+    top: 10px;
+    letter-spacing: 3px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+}
+
+.techpara1 {
+    padding-inline-end: 28%;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.btn-cont {
+    padding-left: 3%;
+}
+
+.tech-btn {
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    color: white;
+    border-color: white;
+    border-width: 0.1px;
+    font-family: 'Forum', cursive;
+    font-size: 25px;
+    background-color: transparent;
+    
+
+}
+
+.tech-img {
+    height: 400px;
+    padding-left: 26%;
+}
+
+
+
+
+
+
+@media screen and (min-width:990px) {
+    .para:hover, .des:hover {
+        text-decoration: underline;
+        text-underline-offset: 8px;
+    }
+
+    a:hover {
+        color: white;
+    }
+
+    .hamburger {
+        display: none;
+        margin: 0;
+    }
+    
+    .hamimg {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width:576px) {
+    .nav-options {
+        display:none;
+    }
+
+    .background {
+        background: url("https://i.ibb.co/0M9hv7P/background-home-mobile.jpg" );
+        background-size: cover;
+        height: 130vh;
+    }
+
+   .head {
+        font-size: 80px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+
+     
+    .logo {
+        margin-top: 36px;
+        padding-left: 35px;
+    }
+
+    .explore {
+        height: 168px;
+        width: 170px;
+        font-size: 24px;
+    }
+
+    .para2 {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .para1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .destination {
+        background: url("https://i.ibb.co/vHXFFbW/background-destination-mobile.jpg" );
+        height: 800px;
+        background-size: cover;
+    }
+
+    .marsimg {
+        height: 180px;
+        margin-left: 85px;
+    }
+
+    .buttons {
+        margin-top: 8%;
+        text-align: center;
+    }
+
+    /* crew */
+
+    .crew {
+        background: url("https://i.ibb.co/hDR84pr/background-crew-mobile.jpg" );
+        height: 120vh;
+        background-size: cover;
+       
+        padding-inline: 0;
+    }
+
+    .crewimg {
+        height: 220px;
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+
+    .crewpara {
+        text-align: center;
+        font-size: 25px;
+        margin-right: 13px;
+    }
+    
+    .crewhead {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .crewpara1 {
+        text-align: center;
+        padding-inline: 10%;
+        font-size: 12px;
+        
+    }
+
+    .circles {
+        margin-left: 30%;
+    }
+
+
+
+
+
+
+}
+
