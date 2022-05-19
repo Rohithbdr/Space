@@ -15,16 +15,20 @@
 
 <body>
     <div class="background">
-        <nav >
-                <div class=" row">
-                    <div class="logo col-6 col-md-5">
-                        <img src="https://i.ibb.co/j5NrVMv/logo-svg.jpg"/>                
-                    </div>        
-
-                    <div class=" col-6 col-md-7">
-                        <div class="nav-options"> 
+        <div class="navb position-fixed w-100">
+            <div class=" row">
+                <div class="logo col-6 col-md-5">
+                    <img src="https://i.ibb.co/j5NrVMv/logo-svg.jpg" class="logoimg"/>                
+                </div> 
+                <div class="hamburger">
+                    <button class="hamimg"><img src= "https://i.ibb.co/gdK8Zgh/icon-hamburger-svg.jpg" /></button>
+                </div>
+                <div class=" col-md-7">
+                    
+                    <div class="nav-options "> 
+                        <div class="nav-child">
                             <button class="para">
-                             <a href="index.html">   00&nbsp;&nbsp;HOME </a>
+                            <a href="index.html">   00&nbsp;&nbsp;HOME </a>
                             </button> 
 
                             <button class="para">
@@ -37,17 +41,12 @@
 
                             <button class="para">
                             <a href="technology.html">    03&nbsp;&nbsp;TECHNOLOGY </a>
-                            </button>                            
-                        </div>
-
-                        <div class="hamburger">
-                            <div class=" d-flex justify-content-end">
-                                <button class="hamimg"><img src= "https://i.ibb.co/gdK8Zgh/icon-hamburger-svg.jpg" /></button>
-                            </div>
-                        </div>
-                    </div>                    
-                </div>
-        </nav>
+                            </button> 
+                        </div>                           
+                    </div>
+                </div>                    
+            </div>
+        </div>
 
         <div class=" row  home">
             <div class=" col-md-6 " style="text-align: center; padding-inline:10%">
@@ -64,8 +63,9 @@
 
     </div>
 
+    <script type="text/javascript" src="nav.js"></script>
 
-</body>
+    </body>
 
 
 </html>
