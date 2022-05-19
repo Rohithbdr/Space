@@ -5,6 +5,7 @@ let para = document.getElementById("para2");
 let km = document.getElementById('km');
 let travel = document.getElementById('travel');
 
+
 let navbtn = document.querySelector('.hamimg');
 let navmenu = document.querySelector('.nav-options');
 
@@ -22,7 +23,7 @@ const destinations = [
            "png": "https://i.ibb.co/Z2MjF51/image-moon.png" ,
            "webp": "./assets/destination/image-moon.webp"
          },
-         "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+         "description": "A planet  you've never seen it before.A perfect relaxing trip away to help regain perspective and come back refreshed. While you're there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
          "distance": "384,400 KM",
          "travel": "3 DAYS"
        },
@@ -100,11 +101,12 @@ btn.forEach(function(e) {
   presentButton.onclick = function(g) {
 
   btn.forEach(function (f) {
-  f.style.color = "white";
+  f.style.color = "rgba(250, 248, 248, 0.822)";
+  f.style.fontWeight = "100";
   }) 
-
+    
     presentButton.style.color = "red";
-
+    presentButton.style.fontWeight = "800"
     buttonClicked(g.target);
     
   }
