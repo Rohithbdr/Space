@@ -15,30 +15,33 @@ a {
     background: url("https://i.ibb.co/JqGwLwZ/desktop.jpg");
     height: 100vh;
     background-size: cover;
-    max-width: 1300px;
-    margin: auto;
+    overflow: hidden;
+
 }
 
 
 
 .logo{
     
-   margin-top: 55px;
+   margin-top: 48px;
    padding-left: 50px;
 }
 
+
+
 .nav-options {
     backdrop-filter: blur(28px);
-    height: 75px;
+    height: 70px;
     justify-content: center;
     display: flex;
-    margin-top: 45px;
+    margin-top: 36px;
     background: rgba(255, 255, 255, 0.05);
 }
 
 .hamburger {
-    margin-top: 23%;
-    margin-right: 10%;
+    position: absolute;
+    top: 20px;
+    right: 25px;
 }
 
 .hamimg {
@@ -54,9 +57,9 @@ a {
     letter-spacing: 3px;
     font-family: 'Barlow Condensed', sans-serif;
     background-color: transparent;
-    border-width: 0;
-    border-color: transparent;
+    border: none;
     white-space: nowrap;
+    
   
 }
 
@@ -78,9 +81,7 @@ a {
     color: rgba(250, 248, 248, 0.822);
 }
 
-.home {
-    margin-top: 10%;
-}
+
 
 .head {
     font-size: 95px;
@@ -110,18 +111,27 @@ a {
 
 .destination {
     background: url("https://i.ibb.co/8rSSG0G/background-destination-desktop.jpg");
-    height: 600px;
+    height: 100vh;
     background-size: cover;
+    overflow: hidden;
 }
 
 
 .marsimg {
     height: 300px;
+    margin-top: 7%;
+    margin-left: 5%;
     
 }
 
+.despara {
+    padding-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
 .buttons {
-    margin-top: 20%;
+    margin-top: 4%;
 }
 
 .des {
@@ -130,7 +140,7 @@ a {
     color: rgba(250, 248, 248, 0.822);
     padding-inline: 2%;
     font-family: 'Barlow Condensed', sans-serif;
-    outline: none;
+    outline: none;    
 }
 
 .time {
@@ -157,16 +167,15 @@ a {
     background: url("https://i.ibb.co/NYsMW89/background-crew-desktop.jpg" );
     height: 100vh;
     background-size: cover;
-    padding-top: 6%;
-    padding-inline: 5%;
     text-transform: uppercase;
     overflow: hidden;
+    
    
 }
 
 .crewimg {
-    height: 435px;
-    margin-left: 20%;
+    height: 350px;
+    margin-left: 35%;
     margin-top: 5%;
 }
 
@@ -174,9 +183,14 @@ a {
     color: gray;
     font-size: 32px;
     margin: auto;
-    margin-top: 12%;
+    margin-top: 7%;
     font-family: 'Forum', cursive;
     letter-spacing: 2px;
+}
+
+.crew-para {
+    padding-top: 3%;
+    padding-left: 62px;
 }
 
 .crewhead {
@@ -189,7 +203,7 @@ a {
 
 .crewpara1 {
     color: #adc7e0;
-    margin-top: 2.3%;
+    margin-top: 2%;
     padding-inline-end: 17%;
     font-size: 13px;
 }
@@ -200,6 +214,7 @@ a {
     width: 13px;
     border-radius: 50px;
     border: none;
+    margin-left: 5%;
     
 }
 
@@ -217,19 +232,18 @@ a {
 
 
 .tech-cont {
-    padding-top: 6%;
+    padding-top: 3%;
     padding-left: 4%;
 }
 
 .tech-head {
-    margin-bottom: 6%;
+    margin-bottom: 4%;
     padding-left: 3%;
 }
 
 .techpara {
     color: white;
     font-size: 14px;
-    top: 10px;
     letter-spacing: 3px;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 600;
@@ -243,6 +257,7 @@ a {
 
 .btn-cont {
     padding-left: 3%;
+    column-gap: 50px;
 }
 
 .tech-btn {
@@ -260,7 +275,7 @@ a {
 }
 
 .tech-img {
-    height: 400px;
+    height: 350px;
     padding-left: 26%;
 }
 
@@ -284,7 +299,27 @@ a {
         margin: 0;
     }
     
+    .home {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+    .nav-child {
+    
+        display: flex;
+        align-items: center;
+        
+    
+    }
+
     .hamimg {
+        display: none;
+    }
+
+    /*tech*/
+
+    #tech-img2 {
         display: none;
     }
 }
@@ -292,14 +327,42 @@ a {
 
 
 @media screen and (max-width:576px) {
+
+
+    .home {
+        margin-top: 90px;
+    }
+
+    .navb {
+        backdrop-filter: blur(28px);
+        z-index: 1;
+    }
+
+
     .nav-options {
         display:none;
+        flex-direction: column;
+        align-items: center;
+        height: 180px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        margin: 0;
+    }
+
+    .button {
+        display: flex;
+    }
+
+    .para {
+        margin: 8px;
+        display: block;
     }
 
     .background {
         background: url("https://i.ibb.co/0M9hv7P/background-home-mobile.jpg" );
         background-size: cover;
-        height: 130vh;
+        height: 120vh;
     }
 
    .head {
@@ -310,16 +373,21 @@ a {
         text-align: center;
     }
 
+    .logoimg {
+        height: 40px;
+    }
      
     .logo {
-        margin-top: 36px;
-        padding-left: 35px;
+        margin-top: 20px;
+        padding-left: 40px;
+        
     }
 
     .explore {
         height: 168px;
         width: 170px;
         font-size: 24px;
+        margin-top: 55px;
     }
 
     .para2 {
@@ -332,15 +400,22 @@ a {
         text-align: center;
     }
 
+    /*destination*/
+
+
     .destination {
         background: url("https://i.ibb.co/vHXFFbW/background-destination-mobile.jpg" );
-        height: 800px;
+        height: 140vh;
         background-size: cover;
+    }
+
+    .despara {
+        padding-left: 0;
     }
 
     .marsimg {
         height: 180px;
-        margin-left: 85px;
+        margin-left: 85px;        
     }
 
     .buttons {
@@ -361,18 +436,28 @@ a {
     .crewimg {
         height: 220px;
         margin-left: 25%;
-        margin-top: 5%;
+        margin-top: 0;
     }
 
     .crewpara {
         text-align: center;
         font-size: 25px;
-        margin-right: 13px;
+        margin-top: 5%;
+        
+    }
+
+    .crew-para {
+        padding-left: 0;
     }
     
     .crewhead {
         font-size: 35px;
         text-align: center;
+    }
+
+    .crew-btn {
+        display: flex;
+        justify-content: center;
     }
 
     .crewpara1 {
@@ -382,14 +467,47 @@ a {
         
     }
 
-    .circles {
-        margin-left: 30%;
+
+
+    /* technology */
+
+    .tech {
+        background: url("https://i.ibb.co/dr0Th8B/background-technology-mobile.jpg" );
+        background-size: cover;
+        height: 120vh;
+    }
+
+    .tech-cont {
+        padding-left: 0;
     }
 
 
+    .tech-img {
+        height: 200px;
+        margin-top: 5px;
+        padding-left: 0;
+    }
+    
+    #tech-img1 {
+        display: none;
+    }
 
+    .tech-btn {
+        height: 45px;
+        width: 45px;
+        font-size: 20px;
+    }
 
+    .techpara {
+        text-align: center;
+        margin-top: 15px;
+    }
 
+    .btn-cont {
+        justify-content: center;
+        column-gap: 50px;
+        margin-top: 25px;
+    }
 
 }
 
