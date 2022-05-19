@@ -4,6 +4,13 @@ let crewHead = document.querySelector('.crewhead');
 let circles = document.querySelectorAll('.circles');
 let crewim = document.getElementById('crewim');
 
+let navbtn = document.querySelector('.hamimg');
+let navmenu = document.querySelector('.nav-options');
+
+
+navbtn.onclick = function() {
+    navmenu.classList.toggle("button");
+}
 
 
 let  crew = [
