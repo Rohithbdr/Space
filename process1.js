@@ -5,6 +5,16 @@ let para = document.getElementById("para2");
 let km = document.getElementById('km');
 let travel = document.getElementById('travel');
 
+let navbtn = document.querySelector('.hamimg');
+let navmenu = document.querySelector('.nav-options');
+
+
+navbtn.onclick = function() {
+    navmenu.classList.toggle("button");
+}
+
+
+
 const destinations = [
        {
          "name": "MOON",
