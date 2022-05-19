@@ -4,6 +4,17 @@ let crewhead = document.querySelector('.crewhead');
 let techdes = document.querySelector('.techpara1');
 let techimg = document.querySelector('.tech-img');
 
+
+let navbtn = document.querySelector('.hamimg');
+let navmenu = document.querySelector('.nav-options');
+
+
+navbtn.onclick = function() {
+    navmenu.classList.toggle("button");
+}
+
+
+
 let  technology = [
     {
       "name": "Launch vehicle",
