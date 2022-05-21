@@ -362,7 +362,7 @@ a {
     .background {
         background: url("https://i.ibb.co/0M9hv7P/background-home-mobile.jpg" );
         background-size: cover;
-        height: 120vh;
+        height: 100vh;
     }
 
    .head {
@@ -405,7 +405,7 @@ a {
 
     .destination {
         background: url("https://i.ibb.co/vHXFFbW/background-destination-mobile.jpg" );
-        height: 140vh;
+        height: 100vh;
         background-size: cover;
     }
 
@@ -428,7 +428,7 @@ a {
 
     .crew {
         background: url("https://i.ibb.co/hDR84pr/background-crew-mobile.jpg" );
-        height: 120vh;
+        height: 100vh;
         background-size: cover;
        
         padding-inline: 0;
@@ -476,7 +476,7 @@ a {
     .tech {
         background: url("https://i.ibb.co/dr0Th8B/background-technology-mobile.jpg" );
         background-size: cover;
-        height: 120vh;
+        height: 100vh;
     }
 
     .tech-cont {
